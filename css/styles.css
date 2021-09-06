@@ -1,0 +1,56 @@
+.header h1 {
+    text-align: center;
+    margin: 50px;
+}
+.main {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width:380px;
+  
+}
+
+.form input {
+    margin-bottom:20px;
+}
+
+.numbers label {
+    display:block;
+}
+
+.operators {
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: bottom 20px;
+}
+.operators .btn{
+    align-items: center;
+    justify-content: center;
+    width :16%;
+    height: 80px;;
+    padding:30px;
+    margin:10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.operators .btn:active {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.box {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    width:380px;
+    height: 100px;
+    margin-top:20px;
+
+}
